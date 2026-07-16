@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange-dark: #f5700a;
+  --color-orange: #f67c20;
+  --color-orange-light: #f8a362;
+  --color-orange-lightest: #fabd8e;
+  --color-ink: #000000;
+  --color-ink-soft: #303030;
+  --color-grey: #616161;
+  --color-cream: #faf0da;
+
+  --font-serif: var(--font-source-serif-4);
+  --font-sans: var(--font-inter);
+
+  --text-display: 3rem;
+  --text-display--line-height: 1.15;
+  --text-h1: 2.25rem;
+  --text-h1--line-height: 1.2;
+  --text-h2: 1.75rem;
+  --text-h2--line-height: 1.25;
+  --text-h3: 1.25rem;
+  --text-h3--line-height: 1.3;
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.6;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.5;
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1.3;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink-soft);
+  font-family: var(--font-sans);
+}
+
+.eyebrow {
+  font-size: var(--text-eyebrow);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
